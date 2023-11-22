@@ -1,0 +1,12 @@
+name: simple-digits-classifier
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.11
+  - pytorch
+  - scikit-learn
+  - matplotlib
+  - seaborn
+  - pip:
+      - torchsummary
